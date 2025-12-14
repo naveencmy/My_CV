@@ -1,5 +1,11 @@
+.DS_Store
+.env
+/.cache
+/.parcel-cache
 node_modules/
+# Keep built output file tracked so GitHub Pages can serve it; ignore other dist files
 dist/
+!dist/output.css
 .DS_Store
 .env
 /.cache
